@@ -5,14 +5,14 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent">
 
-    <!-- ScrollView can have only ONE child -->
+
     <androidx.constraintlayout.widget.ConstraintLayout
         android:id="@+id/main"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:padding="20dp">
 
-        <!-- Title -->
+
         <TextView
             android:id="@+id/titleText"
             android:layout_width="0dp"
@@ -24,7 +24,7 @@
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintEnd_toEndOf="parent" />
 
-        <!-- Name -->
+
         <EditText
             android:id="@+id/nameInput"
             android:layout_width="0dp"
@@ -35,7 +35,7 @@
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintEnd_toEndOf="parent" />
 
-        <!-- Email -->
+
         <EditText
             android:id="@+id/emailInput"
             android:layout_width="0dp"
@@ -46,7 +46,7 @@
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintEnd_toEndOf="parent" />
 
-        <!-- Phone -->
+
         <EditText
             android:id="@+id/phoneInput"
             android:layout_width="0dp"
@@ -57,7 +57,7 @@
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintEnd_toEndOf="parent" />
 
-        <!-- Submit Button -->
+        
         <Button
             android:id="@+id/submitButton"
             android:layout_width="wrap_content"
